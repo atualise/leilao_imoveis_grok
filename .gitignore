@@ -1,0 +1,49 @@
+__pycache__/
+# Ambiente virtual
+venv/
+env/
+ENV/
+.venv/
+
+# Mais arquivos Python compilados
+*.py[cod]
+*.class
+*.so
+
+# Banco de dados
+*.db
+*.db-journal
+*.sqlite
+*.sqlite3
+
+# Arquivos de configuração sensíveis
+.env
+credentials.json
+secrets.yaml
+
+# Logs e arquivos temporários
+logs/
+*.log
+.scrapy/
+.DS_Store
+
+# Arquivos de IDE e editores de texto
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Arquivos específicos do Scrapy
+dbs/
+items/
+
+# Arquivos de resultado de scraping
+output/
+results/
+downloads/
+data/
+prints/
+
+
+cache/
+cookies/

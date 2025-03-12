@@ -1,0 +1,26 @@
+auction_scraper/
+├── scrapy.cfg
+├── fetch_and_scrape.py
+├── requirements.txt
+├── myproject/
+│   ├── __init__.py
+│   ├── config.py
+│   ├── items.py
+│   ├── middlewares.py
+│   ├── pipelines.py
+│   ├── settings.py
+│   ├── spiders/
+│   │   ├── __init__.py
+│   │   └── auction_spider.py
+│   ├── database/
+│   │   ├── __init__.py
+│   │   ├── connection.py
+│   │   └── models.py
+│   ├── llm/
+│   │   ├── __init__.py
+│   │   └── api.py
+│   ├── google_search/
+│   │   ├── __init__.py
+│   │   └── search.py
+│   └── utils/
+│       ├── __init__.py
